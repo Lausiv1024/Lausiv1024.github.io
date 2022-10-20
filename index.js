@@ -12,3 +12,7 @@ function buttonClick(){
     let result = iii / input_name.length
     document.getElementById("result").innerHTML = String.fromCharCode(result);
 }
+
+function opentwitter(){
+    window.open('https://twitter.com/lausiv1024', "_blank");
+}
